@@ -1,0 +1,7 @@
+MaxSteeringAngale: 0
+probingDistance: 20
+speed: 0
+inputSize: 6
+hiddenSize: 30
+outputSize: 1
+AllTracks: System.Boolean[]
