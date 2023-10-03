@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9217278013693324889
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9217278013693324891}
+  - component: {fileID: 9217278013693324888}
+  - component: {fileID: 9217278013693324890}
+  m_Layer: 0
+  m_Name: RoadHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9217278013693324891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217278013693324889}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.84262794, y: 5.403057, z: 317.28488}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9217278013693324888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217278013693324889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 998f6aa49afd9e94bb8faaf75ddc8733, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TestOnOtherRoads: 0
+  fileName: 524a479f-7d75-4dee-a4b5-5ddc021efd54
+  TestWeights: 0
+  FPS: 30
+  pointsArray: []
+  carPrefab: {fileID: 8934978375010569967, guid: 37a09dde67fd7164fae6cbedf232eee5, type: 3}
+  CarNum: 50
+  NaviGationScriptArray: []
+  StartPosition: {x: 0, y: 0, z: 0}
+  startPositionArray: []
+  YRotation: 90
+  YRotationArray: []
+  mutationRate: 0.1
+  cars: []
+  DataSaver: {fileID: 9217278013693324890}
+  aliveCars: 0
+  HomeTrack: 0
+  currTrack: 0
+  AllTracks: 
+  TestingCars: []
+--- !u!114 &9217278013693324890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9217278013693324889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92c5a42b3e163414cbd8e7a2ba5664a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filePath: /Users/Avshalom/github/autonm car/UnityData
+  HomeTrack: 0
