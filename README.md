@@ -6,7 +6,7 @@ this is the build of the main scene of the project:
 
 when opening you will see thee next screen.
 
-![alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/Screenshot%20(122).png)
+![alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/roads.png)
 
 ## cars driving
 All the cars drive at a constent speed. if they go out of the road there is a hidden barrier there that when hitting it they will stop driving.
