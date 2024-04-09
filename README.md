@@ -26,3 +26,14 @@ Also there is a dropdown menu that allows to look at each road in a from a close
 The neural network has 1 hidden layer, it consistes of 30 perceptrons, in both the hidden and the output layer the the activation function is tanh.
 after all the cars of a road finish driving or by crashing into the barrier or by finishing the track, they are all ordered by how far they have reached on the track and the 75th percentile of cars are kept as they are, all the rest car's nn are or randomly or created by mutating the best performing car's nns or by doing crossover between 2 nns.
 Each has an array of points which defines it, so to order the cars by performance I check what is the closest point from that array to that car, and order the cars by the index of that point.
+
+## insights
+The tracks in the model are very different and their difficulty varies.Thus, i decided to test the different sets of cars on all the other tracks and i kept track of their performance. With the data i saved i graphed the avrage performance of the 75th percentile from the set of each track. I do this every 5 generations.
+The performance of the different sets of cars on that track is graphed and not the otherway around; the set that has trained on the track is also tested.
+# The graphs
+
+![alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/track0.png)
+![alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/track1.png)
+![alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/track2.png)
+![alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/track3.png)
+![alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/track4.png)
