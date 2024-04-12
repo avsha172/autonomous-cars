@@ -11,7 +11,7 @@ When opening you will see the next screen you will see this screen. Here there a
 In the simulation you can change the camera view by pressing the space bar.
 The camera will follow the farthest reaching car of the road currently focusing.
 
-<details>
+<details open>
   <summary>Driving gif</summary>
  
 ![Alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/sim-driving.gif)
