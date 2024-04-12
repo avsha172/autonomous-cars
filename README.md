@@ -5,11 +5,18 @@ this is the build of the main scene of the project:
 <a href="https://avsha172.github.io/autonomous-cars/" target="_blank" rel="noopener noreferrer">Unity game</a>
 
 When opening you will see the next screen you will see this screen. Here there are five roads and each road has a set of cars, you can change the parameters of the car's driving. You can choose to focus each road by clicking the dropdown menu and selecting the road you want to enhance. 
-![Alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/sim-road.gif)
+
+![Alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/roads.png)
 
 In the simulation you can change the camera view by pressing the space bar.
 The camera will follow the farthest reaching car of the road currently focusing.
+
+<details>
+  <summary>Driving gif</summary>
+ 
 ![Alt text](https://github.com/avsha172/autonomous-cars/blob/main/readme-res/sim-driving.gif)
+
+</details>
 
 ## cars driving
 All the cars drive at a constant speed. if they go out of the road there is a hidden barrier, hitting it will cause them to halt.
